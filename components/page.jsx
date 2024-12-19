@@ -3,6 +3,7 @@ import { Star, Gift, Sparkles, Clock } from 'lucide-react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import './page.css';
+import { Inpostad } from './ads';
 import axios from 'axios';
 
 const NewYearApp = ({ wisher = 'Your Name' }) => {
@@ -182,6 +183,8 @@ const NewYearApp = ({ wisher = 'Your Name' }) => {
           <button className="share-btn" onClick={handleShare}>
             Share Greetings
           </button>
+          {/* Add Inpostad here */}
+        <Inpostad />
         </div>
       </div>
     </div>
