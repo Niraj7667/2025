@@ -183,8 +183,8 @@ const NewYearApp = ({ wisher = 'Your Name' }) => {
           <button className="share-btn" onClick={handleShare}>
             Share Greetings
           </button>
-          {/* Add Inpostad here */}
-        <Inpostad />
+          {/* <Inpostad />Add Inpostad here */}
+        
         </div>
       </div>
     </div>
